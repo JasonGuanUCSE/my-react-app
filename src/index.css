@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h3{
+  color: #0075F2;
+  text-align: center;
+  font-size: 35px;
+}
+
+p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button{
+  background-color: #0075F2;
+  border-radius: 10px;
+  border-color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin: 20px auto;
+  height: 40px;
+  color: #fff;
+}
+
+button:hover {
+ cursor: pointer;
+ background: #A3E7FC;
+ color: black;
+}
+
+.customSubmit{
+  background-color: #0075F2;
+  border-radius: 10px;
+  border-color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin: 20px auto;
+  height: 30px;
+  color: #fff;
+  width: 20%;
+  padding-top: 5px;
+}
+
+.customSubmit:hover {
+  cursor: pointer;
+  background: #A3E7FC;
+  color: black;
+ }
+
+#submitFile{
+  display: none;
+}
+
+#fileName{
+  text-decoration: underline;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ddd;
+  border-top: 3px solid #0075F2;
+  text-align: center;
+}
+
+.center{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  max-width: 1024px;
+  font-size: 15px;
+}
+
+#inputContainer{
+  width: 600px;
+  padding: 45px;
+  float: right;
+  padding-top: 160px;
+  text-align: center;
+  align-items: center;
+}
+
+#prescheduled{
+  width: 100%;
+  align-items: center;
+}
+
+#manual{
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  color: #0075F2;
+}
+
+#backToPrescheduled{
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  color: #0075F2;
+}
+
+#flightDetails input[type="text"]{
+  display: block;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #0075F2;
+  height: 27px;
+  line-height: 27px;
+  width: 100%;
+  align-items: center;
+}
